@@ -1,13 +1,18 @@
 export type Position = {
   x: number;
   y: number;
+  z?: number;
 };
 
 export interface Warehouse {
   floors: {
     floorNumber: number;
-    places: Place[];
+    rows: Row[];
   }[];
+}
+
+export interface Row {
+  places: Place[];
 }
 
 export const placeType = {
@@ -23,12 +28,17 @@ export interface Place {
   location: string;
   coordinates: Position;
   type: PlaceType | string;
-  pallet: null;
+  pallet: {
+    barcode: string;
+  } | null;
   shuttle: Shuttle | null;
 }
 
 export interface Shuttle {
-  currentPosition: Position;
-  state: string;
+  currentPosition: Position | null;
+  state: string | null;
   batteryLevel: number;
+  pallet: {
+    barcode: string;
+  } | null;
 }
