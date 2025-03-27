@@ -83,7 +83,20 @@ export const WarehouseMap = ({ warehouse }: { warehouse: Warehouse }) => {
     draw();
   }, [draw]);
 
-  // Обработка ховера
+useEffect(() => {
+    // Устанавливаем соединение по WebSocket при монтировании
+    connectWebSocket();
+
+    // При размонтировании закрываем соединение
+    return () => {
+        if (ws.current) {
+            ws.current.close();
+        }
+    };
+}, [connectWebSocket]);
+
+
+    // Обработка ховера
   const handleMouseMove = useCallback(
     (e: MouseEvent) => {
       const canvas = canvasRef.current;
