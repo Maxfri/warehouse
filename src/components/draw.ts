@@ -86,13 +86,14 @@ export const drawPallet = (
   ctx: CanvasRenderingContext2D,
   x: number,
   y: number,
-  size: number
+  size: number,
+  hasPallet: boolean // Новый параметр для определения наличия палеты
 ) => {
   // Рисуем круглую палету с обводкой
   ctx.beginPath();
   ctx.arc(x + size / 2, y + size / 2, size / 2 - 2, 0, Math.PI * 2);
 
-  // Градиент для объема
+  // Градиент в зависимости от наличия палеты
   const gradient = ctx.createRadialGradient(
     x + size / 2,
     y + size / 2,
@@ -101,8 +102,14 @@ export const drawPallet = (
     y + size / 2,
     size / 2
   );
-  gradient.addColorStop(0, "#4CAF50");
-  gradient.addColorStop(1, "#388E3C");
+
+  // Цвета для разных состояний
+  const [startColor, endColor] = hasPallet
+    ? ["#4CAF50", "#388E3C"] // Зеленый градиент если есть палета
+    : ["#FF5252", "#D32F2F"]; // Красный градиент если нет палеты
+
+  gradient.addColorStop(0, startColor);
+  gradient.addColorStop(1, endColor);
 
   ctx.fillStyle = gradient;
   ctx.fill();

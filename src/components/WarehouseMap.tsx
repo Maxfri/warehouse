@@ -57,19 +57,25 @@ export const WarehouseMap = ({ warehouse }: { warehouse: Warehouse }) => {
 
     state.floors[selectedFloor]?.rows.forEach((row) => {
       row.places.forEach((place) => {
-        const x = place.coordinates.x * (CELL_SIZE + GAP) + GAP / 2;
-        const y = place.coordinates.y * (CELL_SIZE + GAP) + GAP / 2;
+        const x = place.coordinates.x * (CELL_SIZE + GAP) + GAP / 4;
+        const y = place.coordinates.y * (CELL_SIZE + GAP) + GAP / 4;
+        const shuttleHasPallet = place.shuttle?.pallet ? true : false;
+        const palletX = x + (CELL_SIZE - PALLET_SIZE) / 2;
+        const palletY = y + (CELL_SIZE - PALLET_SIZE) / 2;
+        const shuttleX = x + (CELL_SIZE - SHUTTLE_SIZE) / 2;
+        const shuttleY = y + (CELL_SIZE - SHUTTLE_SIZE) / 2;
 
         drawCell(ctx, place, CELL_SIZE, GAP);
 
         if (place.shuttle) {
-          drawShuttle(ctx, x, y, SHUTTLE_SIZE, place.shuttle);
+          drawShuttle(ctx, shuttleX, shuttleY, SHUTTLE_SIZE, place.shuttle);
+          if (shuttleHasPallet) {
+            drawPallet(ctx, palletX, palletY, PALLET_SIZE, true);
+          }
         }
 
         if (place.pallet) {
-          const palletX = x + CELL_SIZE - PALLET_SIZE - 2;
-          const palletY = y + 2;
-          drawPallet(ctx, palletX, palletY, PALLET_SIZE);
+          drawPallet(ctx, palletX, palletY, PALLET_SIZE, false);
         }
       });
     });
@@ -156,6 +162,8 @@ export const WarehouseMap = ({ warehouse }: { warehouse: Warehouse }) => {
             `Location: ${hoveredPlace.location}`,
             `Type: ${hoveredPlace.type}`,
             hoveredPlace.pallet && `Pallet: ${hoveredPlace.pallet.barcode}`,
+            hoveredPlace.shuttle &&
+              `Name: ${hoveredPlace.shuttle.name ?? "Неизвестно"}`,
             hoveredPlace.shuttle &&
               `Battery: ${hoveredPlace.shuttle.batteryLevel}%`,
           ]

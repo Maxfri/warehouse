@@ -35,6 +35,7 @@ export interface Place {
 }
 
 export interface Shuttle {
+  name?: string;
   currentPosition: Position | null;
   state: string | null;
   batteryLevel: number;
