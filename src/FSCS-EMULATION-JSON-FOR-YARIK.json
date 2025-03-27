@@ -1,0 +1,3361 @@
+{
+  "floors": [
+    {
+      "floorNumber": 0,
+      "places": [
+        {
+          "name": "Floor0_Cell_0_0",
+          "location": "Row 0, Col 0",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_1",
+          "location": "Row 0, Col 1",
+          "coordinates": {
+            "x": 0,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_2",
+          "location": "Row 0, Col 2",
+          "coordinates": {
+            "x": 0,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_3",
+          "location": "Row 0, Col 3",
+          "coordinates": {
+            "x": 0,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": {
+            "currentPosition": {
+              "x": 0,
+              "y": 3
+            },
+            "state": "IDLE",
+            "batteryLevel": 0
+          }
+        },
+        {
+          "name": "Floor0_Cell_0_4",
+          "location": "Row 0, Col 4",
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": {
+            "currentPosition": {
+              "x": 0,
+              "y": 4
+            },
+            "state": "IDLE",
+            "batteryLevel": 0
+          }
+        },
+        {
+          "name": "Floor0_Cell_0_5",
+          "location": "Row 0, Col 5",
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_6",
+          "location": "Row 0, Col 6",
+          "coordinates": {
+            "x": 0,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_7",
+          "location": "Row 0, Col 7",
+          "coordinates": {
+            "x": 0,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_8",
+          "location": "Row 0, Col 8",
+          "coordinates": {
+            "x": 0,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_0_9",
+          "location": "Row 0, Col 9",
+          "coordinates": {
+            "x": 0,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_0",
+          "location": "Row 1, Col 0",
+          "coordinates": {
+            "x": 1,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_1",
+          "location": "Row 1, Col 1",
+          "coordinates": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_2",
+          "location": "Row 1, Col 2",
+          "coordinates": {
+            "x": 1,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_3",
+          "location": "Row 1, Col 3",
+          "coordinates": {
+            "x": 1,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_4",
+          "location": "Row 1, Col 4",
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_5",
+          "location": "Row 1, Col 5",
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_6",
+          "location": "Row 1, Col 6",
+          "coordinates": {
+            "x": 1,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_7",
+          "location": "Row 1, Col 7",
+          "coordinates": {
+            "x": 1,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_8",
+          "location": "Row 1, Col 8",
+          "coordinates": {
+            "x": 1,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_1_9",
+          "location": "Row 1, Col 9",
+          "coordinates": {
+            "x": 1,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_0",
+          "location": "Row 2, Col 0",
+          "coordinates": {
+            "x": 2,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_1",
+          "location": "Row 2, Col 1",
+          "coordinates": {
+            "x": 2,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_2",
+          "location": "Row 2, Col 2",
+          "coordinates": {
+            "x": 2,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_3",
+          "location": "Row 2, Col 3",
+          "coordinates": {
+            "x": 2,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_4",
+          "location": "Row 2, Col 4",
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_5",
+          "location": "Row 2, Col 5",
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_6",
+          "location": "Row 2, Col 6",
+          "coordinates": {
+            "x": 2,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_7",
+          "location": "Row 2, Col 7",
+          "coordinates": {
+            "x": 2,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_8",
+          "location": "Row 2, Col 8",
+          "coordinates": {
+            "x": 2,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_2_9",
+          "location": "Row 2, Col 9",
+          "coordinates": {
+            "x": 2,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_0",
+          "location": "Row 3, Col 0",
+          "coordinates": {
+            "x": 3,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_1",
+          "location": "Row 3, Col 1",
+          "coordinates": {
+            "x": 3,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_2",
+          "location": "Row 3, Col 2",
+          "coordinates": {
+            "x": 3,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_3",
+          "location": "Row 3, Col 3",
+          "coordinates": {
+            "x": 3,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_4",
+          "location": "Row 3, Col 4",
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_5",
+          "location": "Row 3, Col 5",
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_6",
+          "location": "Row 3, Col 6",
+          "coordinates": {
+            "x": 3,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_7",
+          "location": "Row 3, Col 7",
+          "coordinates": {
+            "x": 3,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_8",
+          "location": "Row 3, Col 8",
+          "coordinates": {
+            "x": 3,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_3_9",
+          "location": "Row 3, Col 9",
+          "coordinates": {
+            "x": 3,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_0",
+          "location": "Row 4, Col 0",
+          "coordinates": {
+            "x": 4,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_1",
+          "location": "Row 4, Col 1",
+          "coordinates": {
+            "x": 4,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_2",
+          "location": "Row 4, Col 2",
+          "coordinates": {
+            "x": 4,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_3",
+          "location": "Row 4, Col 3",
+          "coordinates": {
+            "x": 4,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_4",
+          "location": "Row 4, Col 4",
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_5",
+          "location": "Row 4, Col 5",
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_6",
+          "location": "Row 4, Col 6",
+          "coordinates": {
+            "x": 4,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_7",
+          "location": "Row 4, Col 7",
+          "coordinates": {
+            "x": 4,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_8",
+          "location": "Row 4, Col 8",
+          "coordinates": {
+            "x": 4,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_4_9",
+          "location": "Row 4, Col 9",
+          "coordinates": {
+            "x": 4,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_0",
+          "location": "Row 5, Col 0",
+          "coordinates": {
+            "x": 5,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_1",
+          "location": "Row 5, Col 1",
+          "coordinates": {
+            "x": 5,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_2",
+          "location": "Row 5, Col 2",
+          "coordinates": {
+            "x": 5,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_3",
+          "location": "Row 5, Col 3",
+          "coordinates": {
+            "x": 5,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_4",
+          "location": "Row 5, Col 4",
+          "coordinates": {
+            "x": 5,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_5",
+          "location": "Row 5, Col 5",
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_6",
+          "location": "Row 5, Col 6",
+          "coordinates": {
+            "x": 5,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_7",
+          "location": "Row 5, Col 7",
+          "coordinates": {
+            "x": 5,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_8",
+          "location": "Row 5, Col 8",
+          "coordinates": {
+            "x": 5,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_5_9",
+          "location": "Row 5, Col 9",
+          "coordinates": {
+            "x": 5,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_0",
+          "location": "Row 6, Col 0",
+          "coordinates": {
+            "x": 6,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_1",
+          "location": "Row 6, Col 1",
+          "coordinates": {
+            "x": 6,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_2",
+          "location": "Row 6, Col 2",
+          "coordinates": {
+            "x": 6,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_3",
+          "location": "Row 6, Col 3",
+          "coordinates": {
+            "x": 6,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_4",
+          "location": "Row 6, Col 4",
+          "coordinates": {
+            "x": 6,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_5",
+          "location": "Row 6, Col 5",
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_6",
+          "location": "Row 6, Col 6",
+          "coordinates": {
+            "x": 6,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_7",
+          "location": "Row 6, Col 7",
+          "coordinates": {
+            "x": 6,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_8",
+          "location": "Row 6, Col 8",
+          "coordinates": {
+            "x": 6,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_6_9",
+          "location": "Row 6, Col 9",
+          "coordinates": {
+            "x": 6,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_0",
+          "location": "Row 7, Col 0",
+          "coordinates": {
+            "x": 7,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_1",
+          "location": "Row 7, Col 1",
+          "coordinates": {
+            "x": 7,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_2",
+          "location": "Row 7, Col 2",
+          "coordinates": {
+            "x": 7,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_3",
+          "location": "Row 7, Col 3",
+          "coordinates": {
+            "x": 7,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_4",
+          "location": "Row 7, Col 4",
+          "coordinates": {
+            "x": 7,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_5",
+          "location": "Row 7, Col 5",
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_6",
+          "location": "Row 7, Col 6",
+          "coordinates": {
+            "x": 7,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_7",
+          "location": "Row 7, Col 7",
+          "coordinates": {
+            "x": 7,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_8",
+          "location": "Row 7, Col 8",
+          "coordinates": {
+            "x": 7,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_7_9",
+          "location": "Row 7, Col 9",
+          "coordinates": {
+            "x": 7,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_0",
+          "location": "Row 8, Col 0",
+          "coordinates": {
+            "x": 8,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_1",
+          "location": "Row 8, Col 1",
+          "coordinates": {
+            "x": 8,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_2",
+          "location": "Row 8, Col 2",
+          "coordinates": {
+            "x": 8,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_3",
+          "location": "Row 8, Col 3",
+          "coordinates": {
+            "x": 8,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_4",
+          "location": "Row 8, Col 4",
+          "coordinates": {
+            "x": 8,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_5",
+          "location": "Row 8, Col 5",
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_6",
+          "location": "Row 8, Col 6",
+          "coordinates": {
+            "x": 8,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_7",
+          "location": "Row 8, Col 7",
+          "coordinates": {
+            "x": 8,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_8",
+          "location": "Row 8, Col 8",
+          "coordinates": {
+            "x": 8,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_8_9",
+          "location": "Row 8, Col 9",
+          "coordinates": {
+            "x": 8,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_0",
+          "location": "Row 9, Col 0",
+          "coordinates": {
+            "x": 9,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_1",
+          "location": "Row 9, Col 1",
+          "coordinates": {
+            "x": 9,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_2",
+          "location": "Row 9, Col 2",
+          "coordinates": {
+            "x": 9,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_3",
+          "location": "Row 9, Col 3",
+          "coordinates": {
+            "x": 9,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_4",
+          "location": "Row 9, Col 4",
+          "coordinates": {
+            "x": 9,
+            "y": 4
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_5",
+          "location": "Row 9, Col 5",
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_6",
+          "location": "Row 9, Col 6",
+          "coordinates": {
+            "x": 9,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_7",
+          "location": "Row 9, Col 7",
+          "coordinates": {
+            "x": 9,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_8",
+          "location": "Row 9, Col 8",
+          "coordinates": {
+            "x": 9,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor0_Cell_9_9",
+          "location": "Row 9, Col 9",
+          "coordinates": {
+            "x": 9,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        }
+      ]
+    },
+    {
+      "floorNumber": 1,
+      "places": [
+        {
+          "name": "Floor1_Cell_0_0",
+          "location": "Row 0, Col 0",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_1",
+          "location": "Row 0, Col 1",
+          "coordinates": {
+            "x": 0,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_2",
+          "location": "Row 0, Col 2",
+          "coordinates": {
+            "x": 0,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_3",
+          "location": "Row 0, Col 3",
+          "coordinates": {
+            "x": 0,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": {
+            "currentPosition": {
+              "x": 0,
+              "y": 3
+            },
+            "state": "IDLE",
+            "batteryLevel": 0
+          }
+        },
+        {
+          "name": "Floor1_Cell_0_4",
+          "location": "Row 0, Col 4",
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": {
+            "currentPosition": {
+              "x": 0,
+              "y": 4
+            },
+            "state": "IDLE",
+            "batteryLevel": 0
+          }
+        },
+        {
+          "name": "Floor1_Cell_0_5",
+          "location": "Row 0, Col 5",
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_6",
+          "location": "Row 0, Col 6",
+          "coordinates": {
+            "x": 0,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_7",
+          "location": "Row 0, Col 7",
+          "coordinates": {
+            "x": 0,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_8",
+          "location": "Row 0, Col 8",
+          "coordinates": {
+            "x": 0,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_0_9",
+          "location": "Row 0, Col 9",
+          "coordinates": {
+            "x": 0,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_0",
+          "location": "Row 1, Col 0",
+          "coordinates": {
+            "x": 1,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_1",
+          "location": "Row 1, Col 1",
+          "coordinates": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_2",
+          "location": "Row 1, Col 2",
+          "coordinates": {
+            "x": 1,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_3",
+          "location": "Row 1, Col 3",
+          "coordinates": {
+            "x": 1,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_4",
+          "location": "Row 1, Col 4",
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_5",
+          "location": "Row 1, Col 5",
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_6",
+          "location": "Row 1, Col 6",
+          "coordinates": {
+            "x": 1,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_7",
+          "location": "Row 1, Col 7",
+          "coordinates": {
+            "x": 1,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_8",
+          "location": "Row 1, Col 8",
+          "coordinates": {
+            "x": 1,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_1_9",
+          "location": "Row 1, Col 9",
+          "coordinates": {
+            "x": 1,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_0",
+          "location": "Row 2, Col 0",
+          "coordinates": {
+            "x": 2,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_1",
+          "location": "Row 2, Col 1",
+          "coordinates": {
+            "x": 2,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_2",
+          "location": "Row 2, Col 2",
+          "coordinates": {
+            "x": 2,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_3",
+          "location": "Row 2, Col 3",
+          "coordinates": {
+            "x": 2,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_4",
+          "location": "Row 2, Col 4",
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_5",
+          "location": "Row 2, Col 5",
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_6",
+          "location": "Row 2, Col 6",
+          "coordinates": {
+            "x": 2,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_7",
+          "location": "Row 2, Col 7",
+          "coordinates": {
+            "x": 2,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_8",
+          "location": "Row 2, Col 8",
+          "coordinates": {
+            "x": 2,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_2_9",
+          "location": "Row 2, Col 9",
+          "coordinates": {
+            "x": 2,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_0",
+          "location": "Row 3, Col 0",
+          "coordinates": {
+            "x": 3,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_1",
+          "location": "Row 3, Col 1",
+          "coordinates": {
+            "x": 3,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_2",
+          "location": "Row 3, Col 2",
+          "coordinates": {
+            "x": 3,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_3",
+          "location": "Row 3, Col 3",
+          "coordinates": {
+            "x": 3,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_4",
+          "location": "Row 3, Col 4",
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_5",
+          "location": "Row 3, Col 5",
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_6",
+          "location": "Row 3, Col 6",
+          "coordinates": {
+            "x": 3,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_7",
+          "location": "Row 3, Col 7",
+          "coordinates": {
+            "x": 3,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_8",
+          "location": "Row 3, Col 8",
+          "coordinates": {
+            "x": 3,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_3_9",
+          "location": "Row 3, Col 9",
+          "coordinates": {
+            "x": 3,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_0",
+          "location": "Row 4, Col 0",
+          "coordinates": {
+            "x": 4,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_1",
+          "location": "Row 4, Col 1",
+          "coordinates": {
+            "x": 4,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_2",
+          "location": "Row 4, Col 2",
+          "coordinates": {
+            "x": 4,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_3",
+          "location": "Row 4, Col 3",
+          "coordinates": {
+            "x": 4,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_4",
+          "location": "Row 4, Col 4",
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_5",
+          "location": "Row 4, Col 5",
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_6",
+          "location": "Row 4, Col 6",
+          "coordinates": {
+            "x": 4,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_7",
+          "location": "Row 4, Col 7",
+          "coordinates": {
+            "x": 4,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_8",
+          "location": "Row 4, Col 8",
+          "coordinates": {
+            "x": 4,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_4_9",
+          "location": "Row 4, Col 9",
+          "coordinates": {
+            "x": 4,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_0",
+          "location": "Row 5, Col 0",
+          "coordinates": {
+            "x": 5,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_1",
+          "location": "Row 5, Col 1",
+          "coordinates": {
+            "x": 5,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_2",
+          "location": "Row 5, Col 2",
+          "coordinates": {
+            "x": 5,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_3",
+          "location": "Row 5, Col 3",
+          "coordinates": {
+            "x": 5,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_4",
+          "location": "Row 5, Col 4",
+          "coordinates": {
+            "x": 5,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_5",
+          "location": "Row 5, Col 5",
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_6",
+          "location": "Row 5, Col 6",
+          "coordinates": {
+            "x": 5,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_7",
+          "location": "Row 5, Col 7",
+          "coordinates": {
+            "x": 5,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_8",
+          "location": "Row 5, Col 8",
+          "coordinates": {
+            "x": 5,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_5_9",
+          "location": "Row 5, Col 9",
+          "coordinates": {
+            "x": 5,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_0",
+          "location": "Row 6, Col 0",
+          "coordinates": {
+            "x": 6,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_1",
+          "location": "Row 6, Col 1",
+          "coordinates": {
+            "x": 6,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_2",
+          "location": "Row 6, Col 2",
+          "coordinates": {
+            "x": 6,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_3",
+          "location": "Row 6, Col 3",
+          "coordinates": {
+            "x": 6,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_4",
+          "location": "Row 6, Col 4",
+          "coordinates": {
+            "x": 6,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_5",
+          "location": "Row 6, Col 5",
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_6",
+          "location": "Row 6, Col 6",
+          "coordinates": {
+            "x": 6,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_7",
+          "location": "Row 6, Col 7",
+          "coordinates": {
+            "x": 6,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_8",
+          "location": "Row 6, Col 8",
+          "coordinates": {
+            "x": 6,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_6_9",
+          "location": "Row 6, Col 9",
+          "coordinates": {
+            "x": 6,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_0",
+          "location": "Row 7, Col 0",
+          "coordinates": {
+            "x": 7,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_1",
+          "location": "Row 7, Col 1",
+          "coordinates": {
+            "x": 7,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_2",
+          "location": "Row 7, Col 2",
+          "coordinates": {
+            "x": 7,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_3",
+          "location": "Row 7, Col 3",
+          "coordinates": {
+            "x": 7,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_4",
+          "location": "Row 7, Col 4",
+          "coordinates": {
+            "x": 7,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_5",
+          "location": "Row 7, Col 5",
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_6",
+          "location": "Row 7, Col 6",
+          "coordinates": {
+            "x": 7,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_7",
+          "location": "Row 7, Col 7",
+          "coordinates": {
+            "x": 7,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_8",
+          "location": "Row 7, Col 8",
+          "coordinates": {
+            "x": 7,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_7_9",
+          "location": "Row 7, Col 9",
+          "coordinates": {
+            "x": 7,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_0",
+          "location": "Row 8, Col 0",
+          "coordinates": {
+            "x": 8,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_1",
+          "location": "Row 8, Col 1",
+          "coordinates": {
+            "x": 8,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_2",
+          "location": "Row 8, Col 2",
+          "coordinates": {
+            "x": 8,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_3",
+          "location": "Row 8, Col 3",
+          "coordinates": {
+            "x": 8,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_4",
+          "location": "Row 8, Col 4",
+          "coordinates": {
+            "x": 8,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_5",
+          "location": "Row 8, Col 5",
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_6",
+          "location": "Row 8, Col 6",
+          "coordinates": {
+            "x": 8,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_7",
+          "location": "Row 8, Col 7",
+          "coordinates": {
+            "x": 8,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_8",
+          "location": "Row 8, Col 8",
+          "coordinates": {
+            "x": 8,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_8_9",
+          "location": "Row 8, Col 9",
+          "coordinates": {
+            "x": 8,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_0",
+          "location": "Row 9, Col 0",
+          "coordinates": {
+            "x": 9,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_1",
+          "location": "Row 9, Col 1",
+          "coordinates": {
+            "x": 9,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_2",
+          "location": "Row 9, Col 2",
+          "coordinates": {
+            "x": 9,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_3",
+          "location": "Row 9, Col 3",
+          "coordinates": {
+            "x": 9,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_4",
+          "location": "Row 9, Col 4",
+          "coordinates": {
+            "x": 9,
+            "y": 4
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_5",
+          "location": "Row 9, Col 5",
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_6",
+          "location": "Row 9, Col 6",
+          "coordinates": {
+            "x": 9,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_7",
+          "location": "Row 9, Col 7",
+          "coordinates": {
+            "x": 9,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_8",
+          "location": "Row 9, Col 8",
+          "coordinates": {
+            "x": 9,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor1_Cell_9_9",
+          "location": "Row 9, Col 9",
+          "coordinates": {
+            "x": 9,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        }
+      ]
+    },
+    {
+      "floorNumber": 2,
+      "places": [
+        {
+          "name": "Floor2_Cell_0_0",
+          "location": "Row 0, Col 0",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_1",
+          "location": "Row 0, Col 1",
+          "coordinates": {
+            "x": 0,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_2",
+          "location": "Row 0, Col 2",
+          "coordinates": {
+            "x": 0,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_3",
+          "location": "Row 0, Col 3",
+          "coordinates": {
+            "x": 0,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": {
+            "currentPosition": {
+              "x": 0,
+              "y": 3
+            },
+            "state": "IDLE",
+            "batteryLevel": 0
+          }
+        },
+        {
+          "name": "Floor2_Cell_0_4",
+          "location": "Row 0, Col 4",
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": {
+            "currentPosition": {
+              "x": 0,
+              "y": 4
+            },
+            "state": "IDLE",
+            "batteryLevel": 0
+          }
+        },
+        {
+          "name": "Floor2_Cell_0_5",
+          "location": "Row 0, Col 5",
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_6",
+          "location": "Row 0, Col 6",
+          "coordinates": {
+            "x": 0,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_7",
+          "location": "Row 0, Col 7",
+          "coordinates": {
+            "x": 0,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_8",
+          "location": "Row 0, Col 8",
+          "coordinates": {
+            "x": 0,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_0_9",
+          "location": "Row 0, Col 9",
+          "coordinates": {
+            "x": 0,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_0",
+          "location": "Row 1, Col 0",
+          "coordinates": {
+            "x": 1,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_1",
+          "location": "Row 1, Col 1",
+          "coordinates": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_2",
+          "location": "Row 1, Col 2",
+          "coordinates": {
+            "x": 1,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_3",
+          "location": "Row 1, Col 3",
+          "coordinates": {
+            "x": 1,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_4",
+          "location": "Row 1, Col 4",
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_5",
+          "location": "Row 1, Col 5",
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_6",
+          "location": "Row 1, Col 6",
+          "coordinates": {
+            "x": 1,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_7",
+          "location": "Row 1, Col 7",
+          "coordinates": {
+            "x": 1,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_8",
+          "location": "Row 1, Col 8",
+          "coordinates": {
+            "x": 1,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_1_9",
+          "location": "Row 1, Col 9",
+          "coordinates": {
+            "x": 1,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_0",
+          "location": "Row 2, Col 0",
+          "coordinates": {
+            "x": 2,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_1",
+          "location": "Row 2, Col 1",
+          "coordinates": {
+            "x": 2,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_2",
+          "location": "Row 2, Col 2",
+          "coordinates": {
+            "x": 2,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_3",
+          "location": "Row 2, Col 3",
+          "coordinates": {
+            "x": 2,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_4",
+          "location": "Row 2, Col 4",
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_5",
+          "location": "Row 2, Col 5",
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_6",
+          "location": "Row 2, Col 6",
+          "coordinates": {
+            "x": 2,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_7",
+          "location": "Row 2, Col 7",
+          "coordinates": {
+            "x": 2,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_8",
+          "location": "Row 2, Col 8",
+          "coordinates": {
+            "x": 2,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_2_9",
+          "location": "Row 2, Col 9",
+          "coordinates": {
+            "x": 2,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_0",
+          "location": "Row 3, Col 0",
+          "coordinates": {
+            "x": 3,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_1",
+          "location": "Row 3, Col 1",
+          "coordinates": {
+            "x": 3,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_2",
+          "location": "Row 3, Col 2",
+          "coordinates": {
+            "x": 3,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_3",
+          "location": "Row 3, Col 3",
+          "coordinates": {
+            "x": 3,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_4",
+          "location": "Row 3, Col 4",
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_5",
+          "location": "Row 3, Col 5",
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_6",
+          "location": "Row 3, Col 6",
+          "coordinates": {
+            "x": 3,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_7",
+          "location": "Row 3, Col 7",
+          "coordinates": {
+            "x": 3,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_8",
+          "location": "Row 3, Col 8",
+          "coordinates": {
+            "x": 3,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_3_9",
+          "location": "Row 3, Col 9",
+          "coordinates": {
+            "x": 3,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_0",
+          "location": "Row 4, Col 0",
+          "coordinates": {
+            "x": 4,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_1",
+          "location": "Row 4, Col 1",
+          "coordinates": {
+            "x": 4,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_2",
+          "location": "Row 4, Col 2",
+          "coordinates": {
+            "x": 4,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_3",
+          "location": "Row 4, Col 3",
+          "coordinates": {
+            "x": 4,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_4",
+          "location": "Row 4, Col 4",
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_5",
+          "location": "Row 4, Col 5",
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_6",
+          "location": "Row 4, Col 6",
+          "coordinates": {
+            "x": 4,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_7",
+          "location": "Row 4, Col 7",
+          "coordinates": {
+            "x": 4,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_8",
+          "location": "Row 4, Col 8",
+          "coordinates": {
+            "x": 4,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_4_9",
+          "location": "Row 4, Col 9",
+          "coordinates": {
+            "x": 4,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_0",
+          "location": "Row 5, Col 0",
+          "coordinates": {
+            "x": 5,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_1",
+          "location": "Row 5, Col 1",
+          "coordinates": {
+            "x": 5,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_2",
+          "location": "Row 5, Col 2",
+          "coordinates": {
+            "x": 5,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_3",
+          "location": "Row 5, Col 3",
+          "coordinates": {
+            "x": 5,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_4",
+          "location": "Row 5, Col 4",
+          "coordinates": {
+            "x": 5,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_5",
+          "location": "Row 5, Col 5",
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_6",
+          "location": "Row 5, Col 6",
+          "coordinates": {
+            "x": 5,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_7",
+          "location": "Row 5, Col 7",
+          "coordinates": {
+            "x": 5,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_8",
+          "location": "Row 5, Col 8",
+          "coordinates": {
+            "x": 5,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_5_9",
+          "location": "Row 5, Col 9",
+          "coordinates": {
+            "x": 5,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_0",
+          "location": "Row 6, Col 0",
+          "coordinates": {
+            "x": 6,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_1",
+          "location": "Row 6, Col 1",
+          "coordinates": {
+            "x": 6,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_2",
+          "location": "Row 6, Col 2",
+          "coordinates": {
+            "x": 6,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_3",
+          "location": "Row 6, Col 3",
+          "coordinates": {
+            "x": 6,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_4",
+          "location": "Row 6, Col 4",
+          "coordinates": {
+            "x": 6,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_5",
+          "location": "Row 6, Col 5",
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_6",
+          "location": "Row 6, Col 6",
+          "coordinates": {
+            "x": 6,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_7",
+          "location": "Row 6, Col 7",
+          "coordinates": {
+            "x": 6,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_8",
+          "location": "Row 6, Col 8",
+          "coordinates": {
+            "x": 6,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_6_9",
+          "location": "Row 6, Col 9",
+          "coordinates": {
+            "x": 6,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_0",
+          "location": "Row 7, Col 0",
+          "coordinates": {
+            "x": 7,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_1",
+          "location": "Row 7, Col 1",
+          "coordinates": {
+            "x": 7,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_2",
+          "location": "Row 7, Col 2",
+          "coordinates": {
+            "x": 7,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_3",
+          "location": "Row 7, Col 3",
+          "coordinates": {
+            "x": 7,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_4",
+          "location": "Row 7, Col 4",
+          "coordinates": {
+            "x": 7,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_5",
+          "location": "Row 7, Col 5",
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_6",
+          "location": "Row 7, Col 6",
+          "coordinates": {
+            "x": 7,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_7",
+          "location": "Row 7, Col 7",
+          "coordinates": {
+            "x": 7,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_8",
+          "location": "Row 7, Col 8",
+          "coordinates": {
+            "x": 7,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_7_9",
+          "location": "Row 7, Col 9",
+          "coordinates": {
+            "x": 7,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_0",
+          "location": "Row 8, Col 0",
+          "coordinates": {
+            "x": 8,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_1",
+          "location": "Row 8, Col 1",
+          "coordinates": {
+            "x": 8,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_2",
+          "location": "Row 8, Col 2",
+          "coordinates": {
+            "x": 8,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_3",
+          "location": "Row 8, Col 3",
+          "coordinates": {
+            "x": 8,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_4",
+          "location": "Row 8, Col 4",
+          "coordinates": {
+            "x": 8,
+            "y": 4
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_5",
+          "location": "Row 8, Col 5",
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_6",
+          "location": "Row 8, Col 6",
+          "coordinates": {
+            "x": 8,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_7",
+          "location": "Row 8, Col 7",
+          "coordinates": {
+            "x": 8,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_8",
+          "location": "Row 8, Col 8",
+          "coordinates": {
+            "x": 8,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_8_9",
+          "location": "Row 8, Col 9",
+          "coordinates": {
+            "x": 8,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_0",
+          "location": "Row 9, Col 0",
+          "coordinates": {
+            "x": 9,
+            "y": 0
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_1",
+          "location": "Row 9, Col 1",
+          "coordinates": {
+            "x": 9,
+            "y": 1
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_2",
+          "location": "Row 9, Col 2",
+          "coordinates": {
+            "x": 9,
+            "y": 2
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_3",
+          "location": "Row 9, Col 3",
+          "coordinates": {
+            "x": 9,
+            "y": 3
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_4",
+          "location": "Row 9, Col 4",
+          "coordinates": {
+            "x": 9,
+            "y": 4
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_5",
+          "location": "Row 9, Col 5",
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_6",
+          "location": "Row 9, Col 6",
+          "coordinates": {
+            "x": 9,
+            "y": 6
+          },
+          "type": "PASSAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_7",
+          "location": "Row 9, Col 7",
+          "coordinates": {
+            "x": 9,
+            "y": 7
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_8",
+          "location": "Row 9, Col 8",
+          "coordinates": {
+            "x": 9,
+            "y": 8
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        },
+        {
+          "name": "Floor2_Cell_9_9",
+          "location": "Row 9, Col 9",
+          "coordinates": {
+            "x": 9,
+            "y": 9
+          },
+          "type": "STORAGE",
+          "pallet": null,
+          "shuttle": null
+        }
+      ]
+    }
+  ]
+}
