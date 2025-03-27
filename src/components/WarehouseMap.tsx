@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState, useCallback } from "react";
-import { Warehouse, Position } from "../types";
+import { Warehouse, Position, Place } from "../types";
 import { drawGrid, drawCell, drawShuttle } from "./draw";
+import { Tooltip } from "./Tooltip";
 
 // Настройки отображения
 const CELL_SIZE = 60;
@@ -18,13 +19,55 @@ const WS_URL = "ws://localhost:9004/ws";
 
 export const WarehouseMap = ({ warehouse }: { warehouse: Warehouse }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [tooltip, setTooltip] = useState<{
-    pos: Position;
-    text: string;
-  } | null>(null);
+
   const [selectedFloor, setSelectedFloor] = useState<number>(0);
   const ws = useRef<WebSocket | null>(null);
   const [state, setState] = useState(warehouse);
+  const [hoveredPlace, setHoveredPlace] = useState<Place | null>(null);
+  const [cellPosition, setCellPosition] = useState<Position>({ x: 0, y: 0 });
+
+  const handleMouseMove = useCallback(
+    (e: MouseEvent) => {
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+
+      const rect = canvas.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      const currentFloor = warehouse.floors[selectedFloor];
+      if (!currentFloor) return;
+
+      const foundPlace = currentFloor.places.find((place) => {
+        const x = place.coordinates.y * (CELL_SIZE + GAP) + GAP / 2;
+        const y = place.coordinates.x * (CELL_SIZE + GAP) + GAP / 2;
+        return (
+          mouseX >= x &&
+          mouseX <= x + CELL_SIZE &&
+          mouseY >= y &&
+          mouseY <= y + CELL_SIZE
+        );
+      });
+
+      if (foundPlace) {
+        setHoveredPlace(foundPlace);
+        // Рассчет позиции ячейки относительно окна
+        const canvasRect = canvas.getBoundingClientRect();
+        const cellX =
+          canvasRect.left +
+          foundPlace.coordinates.y * (CELL_SIZE + GAP) +
+          GAP / 2;
+        const cellY =
+          canvasRect.top +
+          foundPlace.coordinates.x * (CELL_SIZE + GAP) +
+          GAP / 2;
+        setCellPosition({ x: cellX, y: cellY });
+      } else {
+        setHoveredPlace(null);
+      }
+    },
+    [selectedFloor, warehouse]
+  );
 
   const connectWebSocket = useCallback(() => {
     ws.current = new WebSocket(WS_URL);
@@ -83,54 +126,17 @@ export const WarehouseMap = ({ warehouse }: { warehouse: Warehouse }) => {
     draw();
   }, [draw]);
 
-useEffect(() => {
+  useEffect(() => {
     // Устанавливаем соединение по WebSocket при монтировании
     connectWebSocket();
 
     // При размонтировании закрываем соединение
     return () => {
-        if (ws.current) {
-            ws.current.close();
-        }
-    };
-}, [connectWebSocket]);
-
-
-    // Обработка ховера
-  const handleMouseMove = useCallback(
-    (e: MouseEvent) => {
-      const canvas = canvasRef.current;
-      if (!canvas) return;
-
-      const rect = canvas.getBoundingClientRect();
-      const mouseX = e.clientX - rect.left;
-      const mouseY = e.clientY - rect.top;
-
-      const currentFloor = state.floors[selectedFloor];
-      if (!currentFloor) return;
-
-      const hoveredPlace = currentFloor.places.find((place) => {
-        const x = place.coordinates.y * (CELL_SIZE + GAP) + GAP / 2;
-        const y = place.coordinates.x * (CELL_SIZE + GAP) + GAP / 2;
-        return (
-          mouseX >= x &&
-          mouseX <= x + CELL_SIZE &&
-          mouseY >= y &&
-          mouseY <= y + CELL_SIZE
-        );
-      });
-
-      if (hoveredPlace) {
-        setTooltip({
-          pos: { x: mouseX, y: mouseY },
-          text: `Name: ${hoveredPlace.name}\nLocation: ${hoveredPlace.location}\nType: ${hoveredPlace.type}`,
-        });
-      } else {
-        setTooltip(null);
+      if (ws.current) {
+        ws.current.close();
       }
-    },
-    [selectedFloor, state]
-  );
+    };
+  }, [connectWebSocket]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -166,27 +172,12 @@ useEffect(() => {
           margin: "50px 0",
         }}
       />
-
-      {tooltip && (
-        <div
-          style={{
-            position: "fixed",
-            left: tooltip.pos.x,
-            top: tooltip.pos.y,
-            background: "#fffff0",
-            padding: "8px 12px",
-            border: "1px solid #ccc",
-            borderRadius: "4px",
-            pointerEvents: "none",
-            whiteSpace: "pre",
-            boxShadow: "2px 2px 8px rgba(0,0,0,0.1)",
-            fontFamily: "monospace",
-            fontSize: "14px",
-            zIndex: 1000,
-          }}
-        >
-          {tooltip.text}
-        </div>
+      {hoveredPlace && (
+        <Tooltip
+          position={cellPosition}
+          text={`Name: ${hoveredPlace.name}\nLocation: ${hoveredPlace.location}\nType: ${hoveredPlace.type}`}
+          cellSize={CELL_SIZE}
+        />
       )}
 
       {/* Индикатор подключения */}
